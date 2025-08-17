@@ -1,3 +1,3 @@
-...and are getting married!
+...and getting married!
 
 More details soon
