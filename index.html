@@ -13,7 +13,9 @@
       justify-content: flex-start;
       align-items: center;
       min-height: 100vh;
-      background-color: #87CEEB; /* sky blue background */
+
+      /* Gradient background from top-left to bottom-right */
+      background: linear-gradient(to bottom right, #f1671f, #c81b26, #9b0f5f, #600479, #160a47);
     }
 
     h1 {
@@ -21,19 +23,13 @@
       font-size: clamp(2rem, 5vw, 4rem); /* responsive font size */
       text-align: center;
       font-weight: bold;
-
-      /* Gradient text effect */ 
-      background: linear-gradient(to right, #f1671f, #c81b26, #9b0f5f, #600479, #160a47);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      color: transparent;
+      color: #fff9b0; /* pastel yellow */
     }
 
     p {
       margin-top: 1.5rem; /* space between heading and text */
       font-size: clamp(1rem, 3vw, 1.5rem);
-      color: #555; /* slightly softer text */
+      color: #fff9b0; /* pastel yellow */
       text-align: center;
     }
   </style>
